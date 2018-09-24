@@ -1,4 +1,4 @@
-**ISC License (ISC)**
+ISC License (ISC)
 
 Copyright :copyright: 2018 by David Bialik (animi.vulpis@gmail.com)
 
