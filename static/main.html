@@ -9,23 +9,15 @@
 </head>
 
 <body>
-  <ol>
-    <li>First off let's gather some game library data</li>
-    <dl>
-      <dt>Steam</dt>
-      <dd>
-        <ol>
-          <li>Go to your Steam profile</li>
-          <li>Go to "Games"</li>
-          <li>Make sure that you are on the "All Games" tab</li>
-          <li>Download the html page</li>
-        </ol>
-      </dd>
-    </dl>
-    <li>Now upload the file here
-      <input type="file" id="steam-games-html"></input>
-    </li>
-  </ol>
+  <main>
+    <section id="data-input">
+      <input type="file" id="steam-games-html-input" accept="text/html">
+        Upload Steam library html here
+      </input>
+    </section>
+
+    <section id="data-display"></section>
+  </main>
 
   <script src="main.js"></script>
 </body>
